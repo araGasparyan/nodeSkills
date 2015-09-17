@@ -1,0 +1,23 @@
+<html>
+    <head>
+       <% include partials/pages/head.ejs %>
+    </head>
+    <body class="<%= className %>">
+<% include partials/pages/header.ejs %>
+
+    	<h1><%= title %> </h1>
+        <div>Hello gort</div>
+
+        
+        <ul>
+        	<% if(typeof(users) !== 'undefined'){
+             for(i=0;i<users.length;i++) { %>
+        			<li><%= users[i] %></li>
+        	<%}}%>		
+
+
+        </ul>	
+<% include partials/pages/footer.ejs %>
+<% include partials/pages/jsdefaults.ejs %>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "lindaexample",
+  "version": "1.0.0",
+  "description": "example from website linda.com",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ara Gasparyan",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.3.3",
+    "express": "^4.13.3",
+    "express-generator": "^4.13.1"
+  }
+}

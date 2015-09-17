@@ -1,0 +1,11 @@
+<article class="socialmediaicons">
+
+<span class="title">Join the movemeny: </span>
+<ul class="group">
+    <% appdata.social.forEach(function(item) { %>
+
+    		<li> <a href="<%= item.url %>"><%= item.shortname %></a></li>
+   
+   	<%});%>		
+</ul>	
+</article>
